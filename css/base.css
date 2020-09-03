@@ -1,0 +1,429 @@
+/* 第一屏 */
+
+.screen-base {
+    background: url(../img/about/about-banner.jpg);
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.screen-base__content {
+    margin: 0 auto;
+    width: 790px;
+    color: #363636;
+    text-align: center;
+    font-style: italic;
+}
+
+.screen-base__text {
+    letter-spacing: 12px;
+    font-size: 54px;
+    line-height: 32px;
+    margin-top: 220px;
+}
+
+.screen-base__subtext {
+    letter-spacing: 27px;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.screen-base__subtext p {
+    margin-top: 12px;
+    float: left;
+    width: 78px;
+    height: 1px;
+    background: #363636;
+}
+
+.screen-base__subtext p:last-child {
+    float: right;
+}
+
+
+/* 测评基地介绍 */
+
+.screen-base__intro {
+    height: 1425px;
+    overflow: hidden;
+}
+
+.screen-intro__wrap {
+    height: 1425px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.screen-intro__title {
+    margin: 0;
+    font-size: 28px;
+    line-height: 28px;
+    color: #2c2926;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.screen-intro__tip {
+    margin: 0 auto;
+    width: 30px;
+    height: 2px;
+    background: #f08305;
+    z-index: 2;
+}
+
+.screen-intro__tip_2 {
+    margin: 0 auto;
+    width: 120px;
+    height: 1px;
+    background: #e2deda;
+    z-index: 1;
+}
+
+.screen-intro__box {
+    width: 1200px;
+    height: 1148px;
+    position: relative;
+    top: 63px;
+    background: url(../img/base/base-img.jpg) no-repeat top;
+}
+
+.screen-intro__explain {
+    height: 500px;
+    width: 530px;
+    background: #ffffff;
+    position: absolute;
+    top: 115px;
+    right: 70px;
+}
+
+.screen-intro__explain_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #363636;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    width: 370px;
+}
+
+.screen-intro__explain_title_tip {
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: #f08305;
+    left: 50px;
+    top: 161px;
+    z-index: 2;
+}
+
+.screen-intro__explain_title_tip_2 {
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #e2deda;
+    left: 50px;
+    top: 161px;
+    z-index: 1;
+}
+
+.screen-intro__explain_text {
+    font-size: 14px;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    width: 435px;
+    line-height: 28px;
+}
+
+.screen-intro__explain_subtext {
+    font-size: 14px;
+    position: absolute;
+    left: 50px;
+    top: 325px;
+    width: 435px;
+    line-height: 28px;
+}
+
+.screen-intro__certificate {
+    width: 600px;
+    height: 623px;
+    background: #2f2f2f;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.screen-intro__certificate_title {
+    width: 506px;
+    line-height: 28px;
+    font-size: 14.8px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+.screen-intro__certificate_title_tip {
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: #f08305;
+    left: 0;
+    top: 37px;
+    z-index: 2;
+}
+
+.screen-intro__certificate_title_tip_2 {
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #e2deda;
+    left: 0;
+    top: 37px;
+    z-index: 1;
+}
+
+.screen-intro__certificate_mean {
+    width: 506px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    list-style-type: none;
+}
+
+.screen-intro__certificate_mean li,
+.screen-intro__certificate_measure li {
+    font-size: 12px;
+    margin-top: 40px;
+    line-height: 0;
+    color: #858585;
+}
+
+.screen-intro__certificate_measure {
+    width: 506px;
+    position: absolute;
+    top: 340px;
+    left: 50px;
+    list-style-type: none;
+}
+
+.screen-intro__certificate_text {
+    width: 506px;
+    position: absolute;
+    top: 520px;
+    left: 50px;
+    line-height: 30px;
+}
+
+.screen-intro__location {
+    width: 600px;
+    height: 200px;
+    background: #f08305;
+    position: absolute;
+    right: 0;
+    bottom: 332px;
+    color: #ffffff;
+}
+
+.screen-intro__location_title {
+    position: absolute;
+    top: 50px;
+    left: 48px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.screen-intro__location_title_tip {
+    width: 1px;
+    height: 102px;
+    position: absolute;
+    top: 55px;
+    left: 108px;
+    background: #ffffff;
+    opacity: 0.5;
+}
+
+.screen-intro__location_des {
+    position: absolute;
+    top: 40px;
+    left: 145px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.screen-intro__location_des p {
+    font-weight: bold;
+}
+
+.screen-intro__location_des span {
+    font-weight: normal;
+}
+
+.screen-intro__working {
+    height: 332px;
+    width: 600px;
+    border: 1px solid #e5e5e5;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+}
+
+.screen-intro__working_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #363636;
+    position: absolute;
+    left: 50px;
+    top: 35px;
+    width: 370px;
+}
+
+.screen-intro__working_title_tip {
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: #f08305;
+    left: 50px;
+    top: 75px;
+    z-index: 2;
+}
+
+.screen-intro__working_title_tip_2 {
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #e2deda;
+    left: 50px;
+    top: 75px;
+    z-index: 1;
+}
+
+.screen-intro__working_des p {
+    line-height: 30px;
+    position: absolute;
+    left: 50px;
+    top: 105px;
+}
+
+
+/* 意义 */
+
+.screen-meaning {
+    height: 1080px;
+    background: #f7f7f7;
+}
+
+.screen-meaning__wrap {
+    height: 1080px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.screen-meaning_img {
+    height: 562px;
+    width: 1200px;
+    background: url(../img/base/base-screen-meaning-img.jpg) no-repeat center;
+    position: absolute;
+    top: 70px;
+}
+
+.screen-meaning__des {
+    width: 1200px;
+    height: 310px;
+    background: #ffffff;
+    border-top: 1px solid #f08305;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    position: absolute;
+    bottom: 90px;
+}
+
+.screen-meaning__des_tip {
+    height: 310px;
+    width: 2px;
+    position: absolute;
+    left: 50%;
+    background: #e5e5e5;
+}
+
+.screen-meaning__school_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #363636;
+    position: absolute;
+    left: 50px;
+    top: 55px;
+    width: 370px;
+}
+
+.screen-meaning__school_title_tip {
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: #f08305;
+    left: 50px;
+    top: 98px;
+    z-index: 2;
+}
+
+.screen-meaning__school_title_tip_2 {
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #e2deda;
+    left: 50px;
+    top: 98px;
+    z-index: 1;
+}
+
+.screen-meaning__school_des p {
+    line-height: 28px;
+    position: absolute;
+    left: 50px;
+    top: 104px;
+}
+
+.screen-meaning__student_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #363636;
+    position: absolute;
+    left: 650px;
+    top: 55px;
+    width: 370px;
+}
+
+.screen-meaning__student_title_tip {
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: #f08305;
+    left: 650px;
+    top: 98px;
+    z-index: 2;
+}
+
+.screen-meaning__student_title_tip_2 {
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #e2deda;
+    left: 650px;
+    top: 98px;
+    z-index: 1;
+}
+
+.screen-meaning__student_des p {
+    line-height: 28px;
+    position: absolute;
+    left: 650px;
+    top: 104px;
+    width: 490px;
+}

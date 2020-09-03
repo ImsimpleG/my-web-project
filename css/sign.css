@@ -1,0 +1,293 @@
+/* 第一屏 */
+
+.screen-sign {
+    background: url(../img/about/about-banner.jpg);
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.screen-sign__content {
+    margin: 0 auto;
+    width: 960px;
+    color: #363636;
+    text-align: center;
+    font-style: italic;
+}
+
+.screen-sign__text {
+    letter-spacing: 12px;
+    font-size: 54px;
+    line-height: 32px;
+    margin-top: 220px;
+}
+
+.screen-sign__subtext {
+    letter-spacing: 27px;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.screen-sign__subtext p {
+    margin-top: 12px;
+    float: left;
+    width: 78px;
+    height: 1px;
+    background: #363636;
+}
+
+.screen-sign__subtext p:last-child {
+    float: right;
+}
+
+
+/* 第二屏 */
+
+.screen-sign__registration {
+    height: 2000px;
+}
+
+.screen-sign__registration_wrap {
+    height: 2000px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/*  */
+
+.screen-sign__registration_user_border{
+    width: 100%;
+    height: 1px;
+    background: #f08305;
+    position: absolute;
+    top: 110px;
+}
+
+.screen-sign__registration_user_title,
+.screen-sign__registration_school_title,
+.screen-sign__registration_profession_title {
+    width: 270px;
+    height: 60px;
+    background: url(../img/register/sign-tip.jpg);
+    position: absolute;
+    top: 50px;
+}
+
+.screen-sign__registration_user_title p,
+.screen-sign__registration_school_title p,
+.screen-sign__registration_profession_title p {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: initial;
+    padding-left: 33px;
+}
+
+.screen-sign__registration_user_info form,
+.screen-sign__registration_school_chose form,
+.screen-sign__registration_profession_chose form {
+    font-size: 14px;
+    color: #454545;
+}
+
+.screen-sign__registration_user_info input,
+.screen-sign__registration_user_info select,
+.screen-sign__registration_school_chose input,
+.screen-sign__registration_profession_chose input {
+    width: 562px;
+    height: 40px;
+    background: #fafafa;
+    border: 1px solid #eeeeee;
+}
+
+.screen-sign__registration_user_info span,
+.screen-sign__registration_school_chose span,
+.screen-sign__registration_profession_chose span {
+    color: #ff0606;
+}
+
+
+/* 用户信息 */
+
+.screen-sign__registration_user {
+    height: 2000px;
+    width: 1200px;
+    position: relative;
+}
+
+.screen-sign__registration_user_info {
+    position: relative;
+    height: 1107px;
+    width: 1200px;
+    top: 160px;
+}
+
+.screen-sign__registration_user_info_name {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.screen-sign__registration_user_info_gender {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.screen-sign__registration_user_info_age {
+    position: absolute;
+    left: 0;
+    top: 120px;
+}
+.screen-sign__registration_user_info_nationality{
+    position: absolute;
+    right: 0;
+    top: 120px;
+}
+.screen-sign__registration_user_info_certificate{
+    position: absolute;
+    left: 0;
+    top: 240px;
+}
+.screen-sign__registration_user_info_id {
+    position: absolute;
+    right: 0;
+    top: 240px;
+}
+.screen-sign__registration_user_info_political{
+    position: absolute;
+    left: 0;
+    top: 360px;
+}
+.screen-sign__registration_user_info_place{
+    position: absolute;
+    right: 0;
+    top: 360px;
+}
+.screen-sign__registration_user_info_household{
+    position: absolute;
+    left: 0;
+    top: 480px;
+}
+.screen-sign__registration_user_info_graduated{
+    position: absolute;
+    right: 0;
+    top: 480px;
+}
+.screen-sign__registration_user_info_profession{
+    position: absolute;
+    left: 0;
+    top: 600px;
+}
+.screen-sign__registration_user_info_education{
+    position: absolute;
+    right: 0;
+    top: 600px;
+}
+.screen-sign__registration_user_info_bachelor{
+    position: absolute;
+    left: 0;
+    top: 720px;
+}
+.screen-sign__registration_user_info_phone {
+    position: absolute;
+    right: 0;
+    top: 720px;
+}
+
+.screen-sign__registration_user_info_mail {
+    position: absolute;
+    left: 0;
+    top: 840px;
+}
+.screen-sign__registration_user_info_choose{
+    width: 1200px;
+    height: 410px;
+    position: absolute;
+    top: 988px;
+}
+.screen-sign__registration_user_info_demarcation{
+    width: 1200px;
+    height: 2px;
+    color: #e5e5e5;
+    border-top: 1.5px dashed #e5e5e5;
+
+}
+.screen-sign__registration_user_info_school{
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.screen-sign__registration_user_info_sort{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.screen-sign__registration_user_info_code{
+    position: absolute;
+    top: 168px;
+    left: 0;
+}
+
+.screen-sign__registration_user_info_project{
+    position: absolute;
+    top: 168px;
+    right: 0;
+}
+
+.screen-sign__registration_user_info_tip{
+    position: absolute;
+    bottom: 500px;
+    color: #f08305;
+}
+.screen-sign__registration_user_condition{
+    position: absolute;
+    bottom: 120px;
+    width: 1200px;
+    height: 360px;
+    border: 1px solid #eeeeee;
+    border-left: 2px solid #f08305;
+}
+.screen-sign__registration_user_condition_title{
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    color: #2c2926;
+    font-weight: bold;
+    font-size: 20px;
+}
+.screen-sign__registration_user_condition_one{
+    position: absolute;
+    left: 30px;
+    top: 77px;
+    color: #2c2926;
+    font-weight: bold;
+    font-size: 16px;
+}
+.screen-sign__registration_user_condition_two{
+    position: absolute;
+    left: 30px;
+    top: 226px;
+    color: #2c2926;
+    font-weight: bold;
+    font-size: 16px;
+}
+.screen-sign__registration_user_condition_one p,
+.screen-sign__registration_user_condition_two p{
+    font-size: 14px;
+    font-weight: normal;
+    color: #404040;
+}
+.screen-sign__registration_user_condition_tip{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #404040;
+}

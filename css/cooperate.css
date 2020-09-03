@@ -1,0 +1,78 @@
+/* 第一屏 */
+.screen-cooperate { background: url(../img/about/about-banner.jpg) no-repeat center; height: 600px; position: relative; overflow: hidden; background-size: cover; }
+.screen-cooperate__content { margin: 0 auto; width: 1090px; color: #363636; text-align: center; font-style: italic; }
+.screen-cooperate__text { letter-spacing: 12px; font-size: 54px; line-height: 32px; margin-top: 220px; }
+.screen-cooperate__subtext { letter-spacing: 16px; font-size: 20px; margin-top: 32px; }
+.screen-cooperate__subtext p { margin-top: 12px; float: left; width: 78px; height: 1px; background: #363636; }
+.screen-cooperate__subtext p:last-child { float: right; }
+/* 合作发展 */
+.screen-cooperate__intro { height: 920px; margin-top: 80px; border-bottom: 1px solid #d2d2d2; }
+.screen-cooperate__intro__wrap { height: 920px; width: 1200px; margin: 0 auto; position: relative; }
+.screen-cooperate__intro_img { width: 1200px; height: 600px; background: url(../img/cooperate/cooperate-screen-intro-bg.jpg) no-repeat center; position: relative; }
+.screen-cooperate__intro_title { font-size: 23px; color: #000; position: absolute; left: 60px; top: 60px; }
+.screen-cooperate__intro_title_tip { position: absolute; width: 40px; height: 1px; background: #f08305; left: 60px; top: 110px; z-index: 2; }
+.screen-cooperate__intro_title_tip_2 { position: absolute; width: 125px; height: 1px; background: #ffffff; left: 60px; top: 110px; z-index: 1; }
+.screen-cooperate__intro_des { font-size: 14px; width: 550px; position: absolute; top: 140px; left: 60px; line-height: 30px; color: #000; }
+.screen-cooperate__intro_list { width: 1080px; height: 300px; border-top: 1px solid #f08305; box-shadow: #efefef 0 0 15px; background: #ffffff; position: absolute; top: 500px; left: 60px; }
+.screen-cooperate__intro_list ul { margin-left: 43px; margin-top: 25px; }
+.screen-cooperate__intro_list li { list-style-type: square; color: #f08305; }
+.screen-cooperate__intro_list span { color: #363636; font-size: 14px; line-height: 48px; text-align: center; }
+/* 就业 */
+.screen-cooperate__model { width: 1200px; margin: 0 auto; }
+.screen-cooperate__model__wrap { width: 1200px; height: 822px; margin: 0 auto; position: relative; }
+.screen-cooperate__model_employment { width: 579px; height: 822px; }
+.screen-cooperate__model_employment_title { font-size: 18px; color: #363636; position: absolute; left: 0; top: 36px; }
+.screen-cooperate__model_employment_title_tip { position: absolute; width: 40px; height: 1px; background: #f08305; left: 0; top: 75px; z-index: 2; }
+.screen-cooperate__model_employment_title_tip_2 { position: absolute; width: 579px; height: 1px; background: #e5e5e5; left: 0; top: 75px; z-index: 1; }
+.screen-cooperate__model_employment_info { height: 200px; width: 579px; border: 1px solid #dcdcdc; position: absolute; left: 0; top: 132px; padding-top: 32px; }
+.screen-cooperate__model_employment_info p { color: #454545; font-size: 14px; font-weight: normal; width: 515px; margin: 0 30px; line-height: 30px; }
+.screen-cooperate__model_employment_info span { color: #363636; font-weight: bold; line-height: 10px; }
+.screen-cooperate__model_employment_info_tip { height: 160px; width: 2px; background: #f08305; position: absolute; left: 0; top: 170px; }
+.screen-cooperate__model_employment_table { position: absolute; left: 0; bottom: 0; width: 579px; }
+.screen-cooperate__model_employment_table table { border-collapse: collapse; border: 1px solid #dcdcdc; width: 581px; height: 450px; }
+.screen-cooperate__model_employment_table tr td:nth-child(1) { width: 50px; text-align: center; }
+.screen-cooperate__model_employment_table tr td:nth-child(2) { width: 256px; }
+.screen-cooperate__model_employment_table tr td:nth-child(3) { width: 270px; }
+.screen-cooperate__model_employment_table tr:nth-child(1),
+.screen-cooperate__model_employment_table tr:nth-child(2) { font-weight: bold; }
+.screen-cooperate__model_employment_table tr td:nth-child(2),
+.screen-cooperate__model_employment_table tr td:nth-child(3) { padding-left: 14px; }
+/* 实训 */
+.screen-cooperate__model_train { width: 579px; height: 822px; position: absolute; right: 0; top: 0; }
+.screen-cooperate__model_train_title { font-size: 18px; color: #363636; position: absolute; left: 0; top: 36px; }
+.screen-cooperate__model_train_title_tip { position: absolute; width: 40px; height: 1px; background: #f08305; left: 0; top: 75px; z-index: 2; }
+.screen-cooperate__model_train_title_tip_2 { position: absolute; width: 579px; height: 1px; background: #e5e5e5; left: 0; top: 75px; z-index: 1; }
+.screen-cooperate__model_train_info { height: 200px; width: 579px; border: 1px solid #dcdcdc; position: absolute; left: 0; top: 132px; padding-top: 32px; }
+.screen-cooperate__model_train_info p { color: #454545; font-size: 14px; font-weight: normal; width: 515px; margin: 0 30px; line-height: 30px; }
+.screen-cooperate__model_train_info span { color: #363636; font-weight: bold; line-height: 10px; }
+.screen-cooperate__model_train_info_tip { height: 160px; width: 2px; background: #f08305; position: absolute; left: 0; top: 170px; }
+.screen-cooperate__model_train_table { position: absolute; left: 0; bottom: 0; width: 579px; }
+.screen-cooperate__model_train_table table { border-collapse: collapse; border: 1px solid #dcdcdc; width: 581px; height: 450px; }
+.screen-cooperate__model_train_table tr td:nth-child(1) { width: 150px; }
+.screen-cooperate__model_train_table tr td:nth-child(2) { width: 128px; }
+.screen-cooperate__model_train_table tr td:nth-child(3) { width: 140px; }
+.screen-cooperate__model_train_table tr td:nth-child(4) { width: 162px; }
+.screen-cooperate__model_train_table tr:nth-child(1),
+.screen-cooperate__model_train_table tr:nth-child(2) { font-weight: bold; }
+.screen-cooperate__model_train_table tr td:nth-child(1),
+.screen-cooperate__model_train_table tr td:nth-child(2),
+.screen-cooperate__model_train_table tr td:nth-child(3),
+.screen-cooperate__model_train_table tr td:nth-child(4) { padding-left: 14px; }
+/* Banner */
+.screen-cooperate__environment { height: 630px; }
+.screen-cooperate__environment__wrap { width: 1380px; height: 630px; margin: 0 auto; position: relative; }
+.screen-cooperate__environment_title { margin: 0; font-size: 28px; line-height: 28px; color: #2c2926; text-align: center; padding-top: 110px; padding-bottom: 30px; }
+.screen-cooperate__environment_tip { margin: 0 auto; width: 30px; height: 2px; background: #f08305; z-index: 2; }
+.screen-cooperate__environment_tip_2 { margin: 0 auto; width: 120px; height: 1px; background: #e2deda; z-index: 1; }
+.screen-cooperate__banner { width: 1380px; height: 280px; position: relative; margin: 0 auto; }
+.screen-cooperate__banner_pics_prev { width: 60px; height: 60px; position: absolute; left: 0; top: 45%; border-radius: 50%; border: 1px solid #dcdcdc; background: #ffffff; cursor: pointer; }
+.screen-cooperate__banner_pics_next { width: 60px; height: 60px; position: absolute; right: 0; top: 45%; border-radius: 50%; border: 1px solid #dcdcdc; background: #ffffff; cursor: pointer; }
+.screen-cooperate__banner_pics_prev p,
+.screen-cooperate__banner_pics_next p { font-size: 14px; text-align: center; line-height: 30px; color: #717171; font-weight: bold; }
+.screen-cooperate__banner_pics { width: 1200px; height: 280px; margin: 65px 90px 0; overflow: hidden; }
+.screen-cooperate__banner_pics_wrap { width: 200%; height: 280px; overflow: hidden; }
+.screen-cooperate__banner_item { height: 280px; width: 380px; background: #f7f7f7; float: left; margin-right: 30px; font-size: 24px; text-align: center; }
+.screen-cooperate__banner_item:nth-child(1) { background: url(../img/cooperate/cooperate-screen-banner-img1.jpg) no-repeat center }
+.screen-cooperate__banner_item:nth-child(2) { background: url(../img/cooperate/cooperate-screen-banner-img2.jpg) no-repeat center }
+.screen-cooperate__banner_item:nth-child(3) { background: url(../img/cooperate/cooperate-screen-banner-img3.jpg) no-repeat center }
+.screen-cooperate__banner_item:last-child { margin-right: 0; }

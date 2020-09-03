@@ -1,0 +1,30 @@
+/* 第一屏 */
+.screen-about { background: url(../img/about/about-banner.jpg) no-repeat center; height: 600px; position: relative; overflow: hidden; background-size: cover; }
+.screen-about__content { margin: 0 auto; width: 600px; color: #363636; text-align: center; font-style: italic; }
+.screen-about__text { letter-spacing: 12px; font-size: 54px; line-height: 32px; margin-top: 220px; }
+.screen-about__subtext { letter-spacing: 27px; font-size: 20px; margin-top: 32px; }
+.screen-about__subtext p { margin-top: 12px; float: left; width: 78px; height: 1px; background: #363636; }
+.screen-about__subtext p:last-child { float: right; }
+/* 第二屏——烽威简介 */
+.screen-fw__intro { height: 700px; background: #ffffff; }
+.screen-fw__wrap { position: relative; height: 700px; width: 1200px; margin: 0 auto; }
+.screen-fw__img { position: absolute; top: 100px; width: 1200px; height: 560px; background: url(../img/about/about-screen-fw-img.jpg) no-repeat center; }
+.screen-fw__box { position: relative; left: 500px; top: 390px; width: 640px; height: 310px; background: #ffffff; }
+.screen-fw__title { position: absolute; left: 60px; top: 60px; font-size: 26px; font-style: italic; }
+.screen-fw__text { position: absolute; left: 60px; top: 155px; font-size: 13.8px; width: 527px; line-height: 30px; }
+.screen-fw__tip { position: absolute; top: 118px; left: 60px; width: 220px; height: 1px; z-index: 1; background: #eeeeee; }
+.screen-fw__tip_2 { position: absolute; top: 118px; left: 60px; width: 60px; height: 1px; z-index: 2; background: #f08305; }
+.screen-fw__border_top { position: absolute; left: 40px; top: 0; height: 5px; width: 560px; background: #f08305; }
+.screen-fw__border_bottom { position: absolute; left: 40px; bottom: 0; height: 5px; width: 560px; background: #f08305; }
+/* 第三屏——协会介绍 */
+.screen-society__intro { height: 410px; background: #ffffff; margin-top: 56px; }
+.screen-society__wrap { position: relative; height: 410px; width: 1200px; margin: 0 auto; }
+.screen-society__title { position: absolute; top: 25px; font-size: 28px; font-style: italic; }
+.screen-society__text { font-size: 14px; width: 590px; line-height: 30px; position: absolute; top: 120px; }
+.screen-society__subtext { font-size: 14px; width: 588px; line-height: 30px; position: absolute; top: 210px;}
+.screen-society__img { width: 500px; height: 400px; position: absolute; right: 0; top: 0; background: url(../img/about/about-screen-society-img.jpg) no-repeat center; }
+.screen-society__tip { position: absolute; bottom: 0; left: 0; width: 587px; height: 5px; background: url(../img/about/about-screen-society-tip.jpg) no-repeat center; }
+.screen-sub__intro { height: 484px; background: #ffffff; }
+.screen-sub__wrap { height: 484px; width: 1200px; margin: 0 auto; position: relative; }
+.screen-sub__text1 { position: absolute; top: 92px; font-size: 14px; color: #454545; width: 670px; font-weight: bold; line-height: 30px; }
+.screen-sub__text2 { position: absolute; top: 182px; font-size: 14px; line-height: 30px; }

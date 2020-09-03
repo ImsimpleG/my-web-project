@@ -1,0 +1,866 @@
+/* 第一屏 */
+
+.screen-intro {
+    background: url(../img/about/about-banner.jpg);
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.screen-intro__content {
+    margin: 0 auto;
+    width: 960px;
+    color: #363636;
+    text-align: center;
+    font-style: italic;
+}
+
+.screen-intro__text {
+    letter-spacing: 12px;
+    font-size: 54px;
+    line-height: 32px;
+    margin-top: 220px;
+}
+
+.screen-intro__subtext {
+    letter-spacing: 27px;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.screen-intro__subtext p {
+    margin-top: 12px;
+    float: left;
+    width: 78px;
+    height: 1px;
+    background: #363636;
+}
+
+.screen-intro__subtext p:last-child {
+    float: right;
+}
+
+
+/* 第二屏 */
+
+.screen-intro__des {
+    height: 346px;
+}
+
+.screen-intro__des_wrap {
+    height: 346px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.screen-intro__des_title {
+    font-size: 30px;
+    color: #2c2926;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.screen-intro__des_text {
+    font-size: 14px;
+    color: #454545;
+    padding-top: 55px;
+    text-align: center;
+    width: 965px;
+    position: absolute;
+    left: 120px;
+    line-height: 29px;
+}
+
+
+/* 第三屏 */
+
+.screen-intro__sort {
+    height: 569px;
+    background: url(../img/intro/intro-screen3-bg.jpg) no-repeat center;
+}
+
+.screen-intro__sort_wrap {
+    height: 382px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 108px;
+    background: #ffffff;
+    border-radius: 3px;
+}
+
+.screen-intro__sort_left {
+    width: 600px;
+    height: 382px;
+    float: left;
+    background: url(../img/intro/intro-screen3-img-left.jpg);
+    position: relative;
+}
+
+.screen-intro__sort_left_title {
+    position: absolute;
+    left: 40px;
+    top: 70px;
+    color: #ffffff;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.screen-intro__sort_left_text {
+    position: absolute;
+    left: 40px;
+    top: 187px;
+    width: 306px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.screen-intro__sort_left_tip {
+    height: 1px;
+    width: 40px;
+    background: #f08305;
+    position: absolute;
+    top: 145px;
+    left: 40px;
+    z-index: 2;
+}
+
+.screen-intro__sort_left_tip2 {
+    height: 1px;
+    width: 100px;
+    background: #ffffff;
+    position: absolute;
+    top: 145px;
+    left: 40px;
+    z-index: 1;
+}
+
+.screen-intro__sort_right {
+    width: 600px;
+    height: 382px;
+    float: right;
+    position: relative;
+}
+
+.screen-intro__sort_right_pics_prev {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 12px;
+    top: 45%;
+    border-radius: 50%;
+    border: 1px solid #dcdcdc;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.screen-intro__sort_right_pics_next {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 12px;
+    top: 45%;
+    border-radius: 50%;
+    border: 1px solid #dcdcdc;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.screen-intro__sort_right_pics_prev p,
+.screen-intro__sort_right_pics_next p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    color: #717171;
+    font-weight: bold;
+}
+
+.screen-intro__sorts {
+    display: none;
+}
+
+.screen-intro__sort_right_img {
+    width: 390px;
+    height: 250px;
+    position: absolute;
+    top: 54px;
+    left: 50%;
+    margin-left: -195px;
+}
+
+.screen-intro__sort_right_img.initial {
+    background: url(../img/intro/intro-screen3-img-right.jpg) no-repeat center;
+}
+
+.screen-intro__sort_right_img.middle {
+    background: url(../img/intro/zhongjizhengshu.png) no-repeat center;
+    background-size: 100%;
+}
+
+.screen-intro__sort_right_img.senior {
+    background: url(../img/intro/gaoji.png) no-repeat center;
+    background-size: 100%;
+}
+
+.screen-intro__sort_right_text {
+    font-size: 18px;
+    color: #404040;
+    width: 150px;
+    position: absolute;
+    bottom: 34px;
+    left: 50%;
+    margin-left: -75px;
+}
+
+
+/* 第四屏 */
+
+.screen-intro__qualified {
+    height: 2060px;
+}
+
+.screen-intro__qualified_wrap {
+    height: 2060px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.screen-intro__qualified_title {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 38px;
+    color: #363636;
+}
+
+.screen-intro__qualified_title_tip {
+    width: 40px;
+    height: 1px;
+    background: #f08305;
+    position: absolute;
+    left: 0;
+    top: 77px;
+    z-index: 2;
+}
+
+.screen-intro__qualified_title_tip2 {
+    width: 1200px;
+    height: 1px;
+    background: #e5e5e5;
+    position: absolute;
+    left: 0;
+    top: 77px;
+    z-index: 1;
+}
+
+.screen-intro__qualified_nav {
+    width: 660px;
+    position: absolute;
+    right: 0;
+    top: 38px;
+    z-index: 4;
+}
+
+.screen-intro__qualified_nav_item {
+    float: left;
+    font-size: 14px;
+    color: #404040;
+    margin-left: 108px;
+    cursor: pointer;
+}
+
+.screen-intro__qualified_nav_item_active {
+    color: #f08305;
+}
+
+.screen-intro__qualified_nav-tip {
+    height: 1px;
+    width: 118px;
+    position: absolute;
+    left: 105px;
+    top: 39px;
+    z-index: 2;
+    background: #f08305;
+    transition: .4s all;
+}
+
+.screen-intro__qualified_level {
+    width: 1200px;
+    height: 1903px;
+    margin: 0 auto;
+}
+
+.screen-intro__qualified_initial {
+    height: 1903px;
+    width: 1200px;
+    position: relative;
+}
+
+.screen-intro__qualified_initial_title {
+    font-size: 16px;
+    color: #404040;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    font-weight: bold;
+}
+
+.screen-intro__qualified_initial_des {
+    font-size: 14px;
+    color: #454545;
+    position: absolute;
+    top: 163px;
+    left: 0;
+}
+
+.screen-intro__qualified_initial_table {
+    width: 1200px;
+    height: 1760px;
+    position: absolute;
+    left: 0;
+    top: 222px;
+}
+
+.screen-intro__qualified_initial_table table {
+    border-collapse: collapse;
+    border: 1px solid #dcdcdc;
+    width: 1200px;
+    height: 1760px;
+}
+
+.table_title {
+    font-size: 18px;
+    color: #404040;
+    text-align: center;
+}
+
+.screen-intro__qualified_initial_table tr {
+    height: 49px;
+}
+
+.screen-intro__qualified_initial_table tr:nth-child(1),
+.screen-intro__qualified_initial_table tr:nth-child(2) {
+    font-weight: bold;
+}
+
+.screen-intro__qualified_initial_table tr td {
+    padding-left: 14px;
+    line-height: 30px;
+}
+.screen-intro__qualified_initial_table tr td:first-child {
+    text-align: center;
+    padding-left: 0;
+    width: 60px;
+}
+.screen-intro__qualified_initial_table tr td:nth-child(2) {
+    width: 340px;
+}
+.screen-intro__qualified_initial_table tr td:nth-child(3) {
+    width: 140px;
+}
+.screen-intro__qualified_initial_table tr td:nth-child(4) {
+    width: 190px;
+}
+.screen-intro__qualified_initial_table tr td:nth-child(5) {
+    width: 200px;
+}
+.screen-intro__qualified_initial_table tr td:nth-child(6) {
+    width: 270px;
+}
+
+
+/* 第五屏 */
+
+.screen-intro__qualified_meaning {
+    height: 400px;
+    background: url(../img/intro/intro-screen5-bg.jpg) no-repeat center;
+}
+
+.screen-intro__qualified_meaning_wrap {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.screen-intro__qualified_meaning_title {
+    color: #ffffff;
+    font-size: 40px;
+    font-style: italic;
+    position: absolute;
+    top: 74px;
+    left: 50%;
+    margin-left: -361px;
+    width: 722px;
+}
+
+.screen-intro__qualified_meaning_item {
+    float: left;
+    height: 144px;
+    margin-left: 50px;
+    margin-top: 186px;
+}
+
+.screen-intro__qualified_meaning_item:nth-child(2) {
+    width: 207px;
+}
+
+.screen-intro__qualified_meaning_item:nth-child(3) {
+    margin-left: 112px;
+    width: 229px;
+}
+
+.screen-intro__qualified_meaning_item:nth-child(4) {
+    margin-left: 117px;
+    width: 140px;
+}
+
+.screen-intro__qualified_meaning_item:last-child {
+    margin-left: 155px;
+    width: 140px;
+}
+
+.screen-intro__qualified_meaning_item_img {
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.screen-intro__qualified_meaning_item_img.img1 {
+    background: url(../img/intro/intro-screen5-img1.png) no-repeat center;
+}
+
+.screen-intro__qualified_meaning_item_img.img2 {
+    background: url(../img/intro/intro-screen5-img2.png) no-repeat center;
+}
+
+.screen-intro__qualified_meaning_item_img.img3 {
+    background: url(../img/intro/intro-screen5-img3.png) no-repeat center;
+}
+
+.screen-intro__qualified_meaning_item_img.img4 {
+    background: url(../img/intro/intro-screen5-img4.png) no-repeat center;
+}
+
+.screen-intro__qualified_meaning_item_des {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 26px;
+    line-height: 24px;
+}
+
+.screen-intro__explain {
+    height: 825px;
+}
+
+.screen-intro__explain_wrap {
+    height: 825px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.screen-intro__explain_item {
+    border: 1px solid #e5e5e5;
+    height: 200px;
+    width: 1200px;
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+.screen-intro__explain_item:nth-child(2) {
+    height: 240px;
+}
+
+.screen-intro__explain_item:nth-child(3) {
+    height: 180px;
+}
+
+.screen-intro__explain_item:first-child {
+    margin-top: 50px;
+}
+
+.screen-intro__explain_item_border1 {
+    height: 160px;
+    width: 2px;
+    background: #f08305;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+
+.screen-intro__explain_item_border2 {
+    height: 200px;
+    width: 2px;
+    background: #f08305;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    top: 243px;
+}
+
+.screen-intro__explain_item_border3 {
+    height: 140px;
+    width: 2px;
+    background: #f08305;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 140px;
+}
+
+.screen-intro__explain_item_title {
+    font-size: 18px;
+    color: #2c2926;
+    margin-left: 35px;
+    margin-top: 22px;
+    display: inline-block;
+}
+
+.screen-intro__explain_item_text {
+    width: 1115px;
+    font-size: 14px;
+    color: #2c2926;
+    margin-left: 35px;
+    margin-top: 18px;
+    line-height: 26px;
+}
+
+
+/* 第七屏 */
+
+.screen-7__info {
+    height: 1500px;
+    background: #f7f7f7;
+}
+
+.screen-7__info_wrap {
+    height: 1500px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.screen-7__info_top {
+    width: 1200px;
+    height: 358px;
+    position: relative;
+    top: 60px;
+    background: #ffffff;
+}
+
+.screen-7__info_top_left {
+    width: 600px;
+    height: 358px;
+    position: relative;
+    float: left;
+}
+
+.screen-7__info_top_left_img {
+    width: 600px;
+    height: 358px;
+    background: url(../img/intro/intro-screen7-img1.jpg) no-repeat left top;
+}
+
+.screen-7__info_top_left_des {
+    font-size: 28px;
+    color: #ffffff;
+    position: absolute;
+    top: 56px;
+    left: 37px;
+    font-style: italic;
+}
+
+.screen-7__info_top_left_des-en {
+    font-size: 16px;
+    color: #ffffff;
+    position: absolute;
+    top: 108px;
+    left: 37px;
+    line-height: 18px;
+    font-style: italic;
+}
+
+.screen-7__info_top_right {
+    width: 600px;
+    height: 358px;
+    position: relative;
+    left: 600px;
+}
+
+.screen-7__info_top_right_img {
+    position: absolute;
+    left: 176px;
+    top: 24px;
+    background: url(../img/intro/intro-screen7-img2.jpg);
+    width: 249px;
+    height: 180px;
+}
+
+.screen-7__info_top_right_des {
+    width: 489px;
+    font-size: 14px;
+    position: absolute;
+    left: 56px;
+    bottom: 36px;
+    line-height: 26px;
+}
+
+.screen-7__info_middle {
+    height: 420px;
+    width: 1200px;
+    position: absolute;
+    top: 438px;
+    background: #ffffff;
+    border-top: 1px solid #f08305;
+}
+
+.screen-7__info_middle_line {
+    width: 1px;
+    height: 330px;
+    background: #e5e5e5;
+    position: absolute;
+    left: 600px;
+    top: 45px;
+}
+
+.screen-7__info_middle_text1 {
+    width: 519px;
+    position: relative;
+    left: 41px;
+    top: 39px;
+}
+
+.screen-7__info_middle_text1_title,
+.screen-7__info_middle_text2_title,
+.screen-7__info_middle_text3_title,
+.screen-7__info_middle_text4_title {
+    font-size: 18px;
+    color: #2c2926;
+    font-weight: bold;
+}
+
+.screen-7__info_middle_text1_des {
+    font-size: 14px;
+    color: #454545;
+    position: absolute;
+    top: 50px;
+    line-height: 24px;
+}
+
+.screen-7__info_middle_text2 {
+    width: 519px;
+    position: relative;
+    left: 41px;
+    top: 200px;
+}
+
+.screen-7__info_middle_text2_des {
+    font-size: 14px;
+    color: #454545;
+    position: absolute;
+    top: 53px;
+    line-height: 24px;
+}
+
+.screen-7__info_middle_text3 {
+    width: 519px;
+    position: relative;
+    left: 641px;
+    top: -10px;
+}
+
+.screen-7__info_middle_text3_des {
+    font-size: 14px;
+    color: #454545;
+    position: absolute;
+    top: 50px;
+    line-height: 24px;
+}
+
+.screen-7__info_middle_text4 {
+    width: 420px;
+    position: relative;
+    left: 641px;
+    top: 150px;
+}
+
+.screen-7__info_middle_text4_des {
+    font-size: 14px;
+    color: #454545;
+    position: absolute;
+    top: 53px;
+    line-height: 24px;
+}
+
+.screen-7__info_bottom {
+    height: 560px;
+    width: 1200px;
+    position: absolute;
+    bottom: 62px;
+    background: #ffffff;
+}
+
+.screen-7__info_bottom_img {
+    background: url(../img/intro/intro-screen8-tip.jpg);
+    width: 271px;
+    height: 60px;
+    position: absolute;
+    top: 29px;
+}
+
+.screen-7__info_bottom_img p {
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: 12px;
+    margin-left: 33px;
+    font-weight: bold;
+}
+
+.screen-7__info_bottom ul {
+    position: absolute;
+    top: 90px;
+    width: 1140px;
+    height: 375px;
+}
+
+.screen-7__info_bottom ul li {
+    list-style-type: none;
+    margin-top: 52px;
+}
+
+.screen-7__info_bottom_tip {
+    background: url(../img/intro/intro-screen8-icon.jpg);
+    width: 20px;
+    height: 24px;
+    float: left;
+}
+
+.screen-7__info_bottom_title {
+    font-size: 18px;
+    color: #2c2926;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.screen-7__info_bottom_des {
+    font-size: 13.8px;
+    color: #454545;
+    margin-top: 25px;
+    line-height: 24px;
+    margin-left: 40px;
+}
+
+
+/* 第八屏 */
+
+.screen-profession {
+    height: 930px;
+}
+
+.screen-profession_wrap {
+    height: 930px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.screen-profession__choose {
+    position: absolute;
+    left: 0;
+    top: 68px;
+}
+
+.screen-profession__choose__item_tip {
+    height: 782px;
+    width: 1px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #e5e5e5;
+}
+
+.screen-profession__choose__item_tip_active {
+    height: 30px;
+    width: 1px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #f08305;
+    transition: .4s all;
+}
+
+.screen-profession__choose__menu {
+    margin-left: 27px;
+    float: left;
+    height: 782px;
+    width: 170px;
+}
+
+.screen-profession__choose__menu_item {
+    line-height: 51px;
+    font-size: 16px;
+    color: #2c2926;
+    cursor: pointer;
+    transition: .4s all;
+}
+
+.screen-profession__choose__menu_item:first-child {
+    margin-top: -11px;
+    color: #f08305;
+}
+
+.screen-profession__choose__intro {
+    width: 880px;
+    height: 782px;
+    position: absolute;
+    left: 350px;
+}
+
+.screen-profession__choose__inner_box {
+    width: 880px;
+    height: 782px;
+    display: none
+}
+
+.screen-profession__choose__inner_box:first-child {
+    display: block;
+}
+
+.screen-profession__choose__inner_box table {
+    border-collapse: collapse;
+    border: 1px solid #dcdcdc;
+    width: 880px;
+    height: 782px;
+}
+
+.screen-profession__choose__inner_box table tr:first-child {
+    font-weight: bold;
+}
+
+.screen-profession__choose__inner_box table tr {
+    height: 49px;
+}
+
+.screen-profession__choose__inner_box table tr td {
+    padding-left: 14px;
+}
+
+.screen-profession__choose__inner_box tr td:nth-child(1) {
+    width: 230px;
+}
+
+.screen-profession__choose__inner_box tr td:nth-child(2) {
+    width: 262px;
+}
+
+.screen-profession__choose__inner_box tr td:nth-child(3) {
+    width: 388px;
+}
